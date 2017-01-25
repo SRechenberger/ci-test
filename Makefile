@@ -1,4 +1,4 @@
-all: test.c
+test.out: test.c
 	gcc -Wall test.c -o test.out
 	
 test: out.txt test.out
